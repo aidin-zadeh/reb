@@ -20,8 +20,6 @@ Algorithoms :
 	7 — Bagging and Random Forest. 
 	8 — Boosting and AdaBoost.
 
-
-
 ## Data
 - **ID**: internal ID, _numeric_
 - **date**, date, _datetime_
@@ -153,7 +151,12 @@ Algorithoms :
 ## Report
 
 ## Requirements
-
+- requests          2.19.1
+- numpy             1.15.1
+- pandas            0.23.4
+- matplotlib        2.2.3
+- tqdm              4.26.0
+- cython            0.28.5
 ## Directory Structure
 ```
 .
