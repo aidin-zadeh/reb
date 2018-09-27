@@ -72,9 +72,8 @@ Algorithoms :
 - **USPRIV**: All Employees: Total Private Industries
 - **MPCT00XXS**: Total Construction Spending: Residential
 - **MPCTNRXXS**: Total Construction Spending: Nonresidential
- **MPCTXXXXS**: Total Construction Spending
-- **WPU5121010112**: Producer Price Index by Commodity for Health Care Services: Medicaid Patients: Hospital Inpatient Care, General Medical and Surgical Hospitals  s
-
+- **MPCTXXXXS**: Total Construction Spending
+- **WPU5121010112**: Producer Price Index by Commodity for Health Care Services: Medicaid Patients: Hospital Inpatient Care, General Medical and Surgical Hospitals
 ### Money, Banking, & Finance
 #### Automobile Loan Rates
 - https://fred.stlouisfed.org/series/TERMCBAUTO48NS
