@@ -1,0 +1,223 @@
+
+ID: internal ID, numeric
+date, date, datetime
+year, year, numeric
+month, month, numeric
+day, day, numeric
+
+USSLIND     : Leading Index for the United States, numeric, **target variable
+USRECD      : NBER based Recession Indicators for the United States from the Period following the Peak through the Trough, numeric
+USARECDM    : OECD based Recession Indicators for the United States from the Peak through the Trough, numeric
+USRECDM     : NBER based Recession Indicators for the United States from the Peak through the Trough, numeric
+USRECDP     : NBER based Recession Indicators for the United States from the Peak through the Period preceding the Trough, numeric
+USARECD     : OECD based Recession Indicators for the United States from the Period following the Peak through the Trough, numeric
+USARECDP    : OECD based Recession Indicators for the United States from the Peak through the Period preceding the Trough, numeric
+
+
+Money, Banking, & Finance
+
+Automobile Loan Rates       :   TERMCBAUTO48NS (Finance Rate 48Mo Auto) Quarterly 1-1-1972 - 
+
+Mortgage Rates              :   MORTGAGE30US (30 YRS Fixed Rate ), Weekly (THU) - Apr.1972-Sep.18
+                                MORTGAGE15US (15 YRS Fixed Rate), Weekly (THU) - Sep.1991-Sep.18
+
+Personal Loan Rates         :   TERMCBPER24NS (24 MO Personal Rate), Quarterly - Feb.1972-May.2018
+
+YIELD CURVE
+Treasury Constant Maturity  :   DGS1 (1-Year Treasury Constant Maturity Rate)-Daily-Sep.2013-Sep.2018
+                                DGS2 (2-Year Treasury Constant Maturity Rate)-Daily-Sep.2013-Sep.2018 
+                                DGS5 (5-Year Treasury Constant Maturity Rate)-Daily-Sep.2013-Sep.2018
+                                DGS10 (10-Year Treasury Constant Maturity Rate)-Daily-Sep.2013-Sep.2018
+
+
+Population, Employment, & Labor Markets
+Employment                  :   PAYEMS (Total Nonfarm Payrolls)-Monthly-Jan.1939->Aug.2018
+                                CEU0500000003 (Average Hourly Earnings of All Employees: Total Private)
+                                -Monthly-Mar.2006-Sep.18
+                                USPRIV (All Employees: Total Private Industries) - Monthly- Jan.1939-> Sep.2018
+                                AWHNONAG (Average Weekly Hours of Production and 
+                                          Nonsupervisory Employees: Total private) - Monthly-Jan.1964->Sep.2018
+                                CES0500000011 (Average Weekly Earnings of All Employees: Total Private) - Monthly-Mar.2006-Sep.2018)
+                                CES9091000001 (All Employees: Government: Federal)-Monthly- Jan.1939-> Sep.2018
+                                USGOVT (All Employees: Government: Federal)-Monthly- Jan.1939-> Sep.2018
+                                UNEMPLOY (Unemployment Level)-Monthly- Jan.1948-> Sep.2018
+                                LNS13023706 (Job Leavers as a Percent of Total Unemployed)-Monthly-Jan.1967-Sep.18
+                                LNS13023622 (Job Losers as a Percent of Total Unemployed)-Monthly-Jan.1967-Sep.18
+                                LNS13023654 (Job Losers on Layoff as a Percent of Total Unemployed)-Monthly-Jan.1967-Sep.18
+                                LNS13026511 (Job Losers Not on Layoff as a Percent of Total Unemployed)-Monthly-Jan.1967-Sep.18
+
+
+Income                      :   MEHOINUSA672N (Real Median Household Income in the United States)-Annually-Jan.1948-Jan.2017
+                                MEPAINUSA672N (Real Median Personal Income in the United States)-Annually-Jan.1974-Jan.2016
+                                MEFAINUSA646N (Median Family Income in the United States)-Annually-Jan.1953-Jan.2017
+                                MEHOINUSA646N ( Median Household Income in the United States)-Annually-Jan.1984-Jan.2017
+                                MEPAINUSA646N (Median Personal Income in the United State)-Annually-Jan.1974-Jan.2017
+
+National Accounts
+Federal Government Debt     :   GFDEGDQ188S (Federal Debt: Total Public Debt as Percent of 
+                                            Gross Domestic Product )-Quarterly-Jan.1966-Jan.2018
+                                HBFIGDQ188S (Federal Debt Held by Foreign and International Investors
+                                            as Percent of Gross Domestic Product)-Quarterly-Jan.1970-Jan.2018
+                                HBPIGDQ188S (Federal Debt Held by Private Investors as Percent of 
+                                            Gross Domestic Product)-Quarterly-Jan.1970-Jan.2018
+                                HBFRGDQ188S (Federal Debt Held by Federal Reserve Banks as Percent of Gross 
+                                            Domestic Product)-Quarterly-Jan.1970-Jan.2018
+                                HBFRGDQ188S (Federal Debt Held by Federal Reserve Banks as Percent of Gross 
+                                            Domestic Product)-Quarterly-Jan.1970-Jan.2018
+                                HBATGDQ188S (Federal Debt Held by Agencies and Trusts as Percent of Gross 
+                                            Domestic Product )-Quarterly-Jan.1981-Jan.2018
+                                MVPHGFD027MNFRBDAL (Market Value of Privately Held Gross Federal 
+                                            Debt)-Monthly-Jan.1942-Jan.2018
+                                
+
+Production & Business Activity
+Construction                :   MPCTXXXXS (Total Construction Spending)-Monthly-Feb.2002-Jul.2018
+                                MPCTNRXXS (Total Construction Spending: Nonresidential)-Monthly-Feb.2002-Jul.2018
+                                MPCT00XXS (Total Construction Spending: Residential)-Monthly-Feb.2002-Jul.2018
+
+Housing                     :   TDSP (Household Debt Service Payments as a Percent of Disposable 
+                                     Personal Income)-Quarterly-Jan.1980-Jan.2018
+                                RSAHORUSQ156S(Homeownership Rate for the United States)-Quarterly-Jan.1980-Jan.2018
+                                MDSP (Mortgage Debt Service Payments as a Percent of Disposable 
+                                    Personal Income)-Quarterly-Jan.1980-Jan.2018
+
+Manufacturing               :   MNFCTRIRSA (Manufacturers: Inventories to Sales Ratio)-Monthly-Jan.1992-Jan.2018
+                                MNFCTRMPCSMSA (Manufacturers Sales)-Monthly-Jan.1992-Jan.2018
+                                MNFCTRMPCIMSA (Manufacturers Inventories)-Monthly-Jan.1992-Jan.2018
+Retail Trade                :   MARTSMPCSM44000USS (Advance Retail Sales: Retail (Excluding Food Services))-Monthly-Jan.1992-Jan.2018
+
+Prices
+Commodities                 :   DCOILWTICO (Crude Oil Prices: West Texas Intermediate (WTI))-Daily-Jan.2,1986-Sep.17,2018
+
+
+
+Health Care
+Producer Price Index by Commodity for Health Care Services: Medicaid Patients: 
+Hospital Inpatient Care, General Medical and Surgical Hospitals:
+File: WPU5121010112
+Freq: Monthly
+Dates: Jun.2014 - Aug.2018
+
+OECD based Recession Indicators for the United States from the Peak through the Trough
+File: USARECDM
+Freq: Daily, 7 days
+Dates: Feb.1, 1947 - Jul.31, 2018
+
+10-Year Treasury Constant Maturity Rate 
+File: DGS10
+Freq: Daily
+Dates: Jan.2, 1962 - Sep.14, 2018
+
+U.S. / Euro Foreign Exchange Rate
+File: DEXUSEU
+Freq: Daily
+Dates: Jan.4, 1999 - Sep.14, 2018
+
+5-Year, 5-Year Forward Inflation Expectation Rate
+File: T5YIFR
+Freq: Daily
+Dates: Jan.2, 2003 - Sep.14, 2018
+
+Trade Weighted U.S. Dollar Index: Major Currencies
+File: DTWEXM
+Freq: Daily
+Dates: Jan.2, 1973 - Sep.14, 2018
+
+Japan / U.S. Foreign Exchange Rate
+File: DEXJPUS
+Freq: Daily
+Dates: Jan.4, 1971 - Sep.14, 2018
+
+Russell 3000® Price Index
+File: RU3000PR
+Freq: Daily
+Dates: Dec.29, 1978 - Sep.18, 2018
+
+Wilshire US Real Estate Investment Trust Total Market Index (Wilshire US REIT)
+File: WILLREITIND
+Freq: Daily
+Dates: Dec.30, 1977 - Sep.18, 2018
+
+Wilshire US Real Estate Securities Total Market Index (Wilshire US RESI)
+File: WILLRESIND
+Freq: Daily
+Dates: Dec.30, 1977 - Sep.18, 2018
+
+Leading Index for the United States
+File: USSLIND
+Freq: Monthly
+Dates: Jan.1982 - Jul.2018
+
+Recession Prediction:
+10-Year Treasury Constant Maturity Minus Federal Funds Rate 
+File: T10YFF
+Freq: Daily
+Dates: Jan.1, 1962 - Sep.14, 2018
+
+University of Michigan: Consumer Sentiment 
+File: UMCSENT
+Freq: Monthly
+Dates: Nov.1952 - Jul.2018
+
+Unemlpoyment Initial Claims 
+File: ICSA
+Freq: Weekly
+Dates: Jan.7, 1967 - Sep.8, 2018
+
+New Private Housing Units Authorized by Building Permits
+File: PERMIT
+Freq: Wonthly
+Dates: Jan.1960 - Aug.2018
+
+Index Predictors According to Forbes
+1. The Yield Curve 
+(The yield curve, or more specifically 
+the difference between the yield on 10-year and 2-year U.S. government bonds)
+2. The Stock Market
+3. Unemployment
+4. House Prices
+
+Others:
+Industrial Production + Real Income + Unemployment + Retail Sales
+
+Total Construction Spending 
+File:TTLCONS
+Freq: Wonthly
+Dates: Jan.1993 - Jul.2018
+
+S&P/Case-Shiller U.S. National Home Price Index
+File: CSUSHPINSA
+Freq: Wonthly
+Dates: Jan.1987 - Jun.2018
+
+Manufacturers' New Orders: Durable Goods 
+File: DGORDER
+Freq: Monthly
+Dates: Feb.1992 - Jul.2018
+
+STOCK Market
+S&P 500 Index
+File: SP500
+Freq: Daily
+Dates: Oct.10, 2008 - Sep.18, 2018
+
+NASDAQ Composite Index 
+File: NASDAQCOM
+Freq: Daily
+Dates: Mar.1, 1971 - Sep.18, 2018
+
+Dow Jones Industrial Average
+File: DJIA
+Freq: Daily
+Dates: Oct.10, 2008 - Sep.18, 2018
+
+Natural Rate of Unemployment (Long-Term)
+File: NROU
+Freq: Quarterly
+Dates: Jan.1, 1949 - Oct.1, 2028
+
+Natural Rate of Unemployment (Short-Term)
+File: NROUST
+Freq: Quarterly
+Dates: Jan.1, 1949 - Oct.1, 2028
+
