@@ -74,6 +74,16 @@ Algorithoms :
 - **MPCTNRXXS**: Total Construction Spending: Nonresidential
 - **MPCTXXXXS**: Total Construction Spending
 - **WPU5121010112**: Producer Price Index by Commodity for Health Care Services: Medicaid Patients: Hospital Inpatient Care, General Medical and Surgical Hospitals
+
+
+#### Recession indicators
+**GDPC1**: [Real Gross Domestic Product](https://fred.stlouisfed.org/series/GDPC1)
+**JHDUSRGDPBR**: [U.S. recessions as inferred by GDP-based recession indicator](https://fred.stlouisfed.org/series/JHDUSRGDPBR)
+**USRECM**: [NBER based Recession Indicators for the United States from the Peak through the Trough](https://fred.stlouisfed.org/series/USRECM)
+**USARECM**: [OECD based Recession Indicators for the United States from the Peak through the Trough](https://fred.stlouisfed.org/series/USARECM)
+**** 
+
+
 ### Money, Banking, & Finance
 #### Automobile Loan Rates
 - https://fred.stlouisfed.org/series/TERMCBAUTO48NS
