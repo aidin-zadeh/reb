@@ -1,32 +1,36 @@
-Field_FileName,Description,Frequency,New_StartDate,New_End_Date,Original_StartDate,Original_End_Date,Type
-MORTGAGE30US,30 YRS Fixed Rate,Weekly,2/1/87,8/31/18,4/1/72,9/14/18,Mortgage Rates
-MORTGAGE15US,15 YRS Fixed Rate,Weekly,2/1/87,8/31/18,9/1/91,9/14/18,Mortgage Rates
-DGS1,1-Year Treasury Constant Maturity Rate,Daily,2/1/87,8/31/18,9/1/13,9/14/18,YIELD CURVE
-DGS2,2-Year Treasury Constant Maturity Rate,Daily,2/1/87,8/31/18,9/1/13,9/14/18,YIELD CURVE
-DGS5,5-Year Treasury Constant Maturity Rate,Daily,2/1/87,8/31/18,9/1/13,9/14/18,YIELD CURVE
-DGS10,10-Year Treasury Constant Maturity Rate,Daily,2/1/87,8/31/18,9/1/13,9/14/18,YIELD CURVE
-PAYEMS,Total Nonfarm Payrolls, Monthly,2/1/87,8/31/18,1/1/39,8/1/18,Employment
-CEU0500000003,Average Hourly Earnings of All Employees: Total Private, Monthly,2/1/87,8/31/18,1/3/06,9/14/18,Employment
-USPRIV,All Employees: Total Private Industries,Monthly,2/1/87,8/31/18,1/1/39,9/1/18,Employment
-AWHNONAG,Average Weekly Hours of Production and Nonsupervisory Employees: Total private,Monthly,2/1/87,8/31/18,1/1/64,9/14/18,Employment
-CES9091000001,All Employees: Government: Federal,Monthly,2/1/87,8/31/18,1/1/39,9/14/18,Employment
-USGOVT,All Employees: Government: Federal,Monthly,2/1/87,8/31/18,1/1/39,9/14/18,Employment
-UNEMPLOY,Unemployment Level,Monthly,2/1/87,8/31/18,1/1/48,9/14/18,Employment
-LNS13023706,Job Leavers as a Percent of Total Unemployed,Monthly,2/1/87,8/31/18,1/1/67,9/14/18,Employment
-LNS13023622,Job Losers as a Percent of Total Unemployed,Monthly,2/1/87,8/31/18,1/1/67,9/14/18,Employment
-LNS13023654,Job Losers on Layoff as a Percent of Total Unemployed),Monthly,2/1/87,8/31/18,1/1/67,9/14/18,Employment
-LNS13026511,Job Losers Not on Layoff as a Percent of Total Unemployed,Monthly,2/1/87,8/31/18,1/1/67,9/14/18,Employment
-MEHOINUSA672N,Real Median Household Income in the United States,Annually,2/1/87,8/31/18,1/1/48,1/1/17,Income
-MEPAINUSA672N,Real Median Personal Income in the United States,Annually,2/1/87,8/31/18,1/1/74,1/1/16,Income
-MEFAINUSA646N,Median Family Income in the United States,Annually,2/1/87,8/31/18,1/1/53,1/1/17,Income
-MEHOINUSA646N,Median Household Income in the United States,Annually,2/1/87,8/31/18,1/1/84,1/1/17,Income
-MEPAINUSA646N,Median Personal Income in the United State,Annually,2/1/87,8/31/18,1/1/74,1/1/17,Income
-MVPHGFD027MNFRBDAL,Market Value of Privately Held Gross Federal Debt,Monthly,2/1/87,8/31/18,1/1/42,1/1/18,Federal Government Debt
-MPCTXXXXS,Total Construction Spending,Monthly,2/1/87,8/31/18,1/1/02,7/1/18,Construction
-MPCTNRXXS,Total Construction Spending: Nonresidential,Monthly,2/1/87,8/31/18,2/1/02,7/1/18,Construction
-MPCT00XXS,Total Construction Spending: Residential,Monthly,2/1/87,8/31/18,2/1/02,7/1/18,Construction
-MNFCTRIRSA,Manufacturers: Inventories to Sales Ratio,Monthly,2/1/87,8/31/18,1/1/92,1/1/18,Manufacturing
-MNFCTRMPCSMSA,Manufacturers Sales,Monthly,2/1/87,8/31/18,1/1/92,1/1/18,Manufacturing
-MNFCTRMPCIMSA,Manufacturers Inventories,Monthly,2/1/87,8/31/18,1/1/92,1/1/18,Manufacturing
-MARTSMPCSM44000USS,Advance Retail Sales: Retail(Excluding Food Services),Monthly,2/1/87,8/31/18,1/1/92,1/1/18,Retail Trade
-DCOILWTICO,Crude Oil Prices: West Texas Intermediate (WTI),Daily,2/1/87,8/31/18,1/2/86,9/17/18,Price_Commodities
+Field_FileName,Description,Frequency,Units,Unit2,New_StartDate,New_End_Date,Original_StartDate,Original_End_Date,Type
+MEFAINUSA646N,Median Family Income in the United States,Annually,Current Dollars,No Seasonal Adjusted,2/1/87,8/31/18,1/1/53,1/1/17,Income
+MEHOINUSA646N,Median Household Income in the United States,Annually,Current Dollars,No Seasonal Adjusted,2/1/87,8/31/18,1/1/84,1/1/17,Income
+MEHOINUSA672N,Real Median Household Income in the United States,Annually,2017 CPI-U-RS Adjusted Dollars,No Seasonal Adjusted,2/1/87,8/31/18,1/1/48,1/1/17,Income
+MEPAINUSA646N,Median Personal Income in the United State,Annually,Current Dollars,No Seasonal Adjusted,2/1/87,8/31/18,1/1/74,1/1/17,Income
+MEPAINUSA672N,Real Median Personal Income in the United States,Annually,2017 CPI-U-RS Adjusted Dollars,No Seasonal Adjusted,2/1/87,8/31/18,1/1/74,1/1/16,Income
+DCOILWTICO,Crude Oil Prices: West Texas Intermediate (WTI),Daily,Dollars P/Barrel,No Seasonal Adjusted,2/1/87,8/31/18,1/2/86,9/17/18,Price_Commodities
+DGS1,1-Year Treasury Constant Maturity Rate,Daily,Percent,No Seasonal Adjusted,9/1/13,8/31/18,9/1/13,9/14/18,YIELD CURVE
+DGS10,10-Year Treasury Constant Maturity Rate,Daily,Percent,No Seasonal Adjusted,9/1/13,8/31/18,9/1/13,9/14/18,YIELD CURVE
+DGS2,2-Year Treasury Constant Maturity Rate,Daily,Percent,No Seasonal Adjusted,9/1/13,8/31/18,9/1/13,9/14/18,YIELD CURVE
+DGS5,5-Year Treasury Constant Maturity Rate,Daily,Percent,No Seasonal Adjusted,9/1/13,8/31/18,9/1/13,9/14/18,YIELD CURVE
+AWHNONAG,Average Weekly Hours of Production and Nonsupervisory Employees: Total private,Monthly,Hours,Seasonal Adjusted,2/1/87,8/31/18,1/1/64,9/14/18,Employment
+CES9091000001,All Employees: Government: Federal,Monthly,Thousands Of Persons,SEasonal Adjusted,2/1/87,8/31/18,1/1/39,9/14/18,Employment
+CEU0500000003,Average Hourly Earnings of All Employees: Total Private,Monthly,Dollars P/Hour,No Seasonal Adjusted,1/3/06,8/31/18,1/3/06,9/14/18,Employment
+CMRMTSPL,Real Manufacturing and Trade Industries Sales,Monthly,Millions of Chained 2012 Dollars,seasonal Adjusted,2/1/87,7/1/18,1/1/67,7/1/18,manufacturing
+INDPRO,Industrial Production Index,Monthly,Index 2012=100,seasonal Adjusted,2/1/87,8/1/18,1/1/19,8/1/18,manufacturing
+LNS13023622,Job Losers as a Percent of Total Unemployed,Monthly,Percent,Seasonal Adjusted,2/1/87,8/31/18,1/1/67,9/14/18,Employment
+LNS13023654,Job Losers on Layoff as a Percent of Total Unemployed),Monthly,Percent,Seasonal Adjusted,2/1/87,8/31/18,1/1/67,9/14/18,Employment
+LNS13023706,Job Leavers as a Percent of Total Unemployed,Monthly,Percent,Seasonal Adjusted,2/1/87,8/31/18,1/1/67,9/14/18,Employment
+LNS13026511,Job Losers Not on Layoff as a Percent of Total Unemployed,Monthly,Percent,Seasonal Adjusted,2/1/87,8/31/18,1/1/67,9/14/18,Employment
+MARTSMPCSM44000USS,Advance Retail Sales: Retail(Excluding Food Services),Monthly,Percent Change from Preceding Period,Seasonal Adjusted,1/1/92,8/31/18,1/1/92,1/1/18,Retail Trade
+MNFCTRIRSA,Manufacturers: Inventories to Sales Ratio,Monthly,Ratio,Seasonal Adjusted,1/1/92,8/31/18,1/1/92,1/1/18,Manufacturing
+MNFCTRMPCIMSA,Manufacturers Inventories,Monthly,Percent Change,Seasonal Adjusted,1/1/92,8/31/18,1/1/92,1/1/18,Manufacturing
+MNFCTRMPCSMSA,Manufacturers Sales,Monthly,Percent Change,Seasonal Adjusted,1/1/92,8/31/18,1/1/92,1/1/18,Manufacturing
+MPCT00XXS,Total Construction Spending: Residential,Monthly,Percent Change from Preceding Period,Seasonal Adjusted,2/1/02,8/31/18,2/1/02,7/1/18,Construction
+MPCTNRXXS,Total Construction Spending: Nonresidential,Monthly,Percent Change from Preceding Period,Seasonal Adjusted,2/1/02,8/31/18,2/1/02,7/1/18,Construction
+MPCTXXXXS,Total Construction Spending,Monthly,Percent Change from Preceding Period,Seasonal Adjusted,1/1/02,8/31/18,1/1/02,7/1/18,Construction
+MVPHGFD027MNFRBDAL,Market Value of Privately Held Gross Federal Debt,Monthly,Billions Of Dollars,No Seasonal Adjusted,2/1/87,8/31/18,1/1/42,1/1/18,Federal Government Debt
+PAYEMS,Total Nonfarm Payrolls,Monthly,Thousands Of Persons,Seasonal Adjusted,2/1/87,8/31/18,1/1/39,8/1/18,Employment
+UNEMPLOY,Unemployment Level,Monthly,Thousands Of Persons,SEasonal Adjusted,2/1/87,8/31/18,1/1/48,9/14/18,Employment
+USGOVT,"Government employment covers only civilian employees; military personnel are excluded. Employees of the Central Intelligence Agency, the National Security Agency, the National Imagery and Mapping Agency, and the Defense Intelligence Agency also are excluded. Postal Services are included.",Monthly,Thousands Of Persons,SEasonal Adjusted,2/1/87,8/31/18,1/1/39,9/14/18,Employment
+USPRIV,All Employees: Total Private Industries,Monthly,Thousands Of Persons,Seasonal Adjusted,2/1/87,8/31/18,1/1/39,9/1/18,Employment
+W875RX1,Real personal income excluding current transfer receipts,Monthly,Billions of Chained 2012 Dollars,,2/1/87,8/1/18,1/1/59,8/1/18,income
+GDPC1,Real Gross Domestic Product,Quarterly,Billions of Chained 2012 Dollars,Seasonal Adjusted,2/1/87,4/1/18,1/1/47,4/1/18,income
+MORTGAGE15US,15 YRS Fixed Rate,Weekly,Percent,No Seasonal Adjusted,9/1/91,8/31/18,9/1/91,9/14/18,Mortgage Rates
+MORTGAGE30US,30 YRS Fixed Rate,Weekly,Percent,No Seasonal Adjusted,2/1/87,8/31/18,4/1/72,9/14/18,Mortgage Rates
