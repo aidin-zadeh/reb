@@ -1,8 +1,6 @@
 let ffname = "https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv"
 
 Plotly.d3.csv(ffname, function(err, rows){
-    console.log(rows)
-
 
     function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });
