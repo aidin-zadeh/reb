@@ -29,6 +29,7 @@ MORTGAGE30US,30 YRS Fixed Rate,Weekly,Percent,No Seasonal Adjusted,2/1/87,8/31/1
 ,,,,,,,,,
 CURRENTLY DISCARDED,,,,,,,,,
 USPRIV,All Employees: Total Private Industries,Monthly,Thousands Of Persons,Seasonal Adjusted,2/1/87,8/31/18,1/1/39,9/1/18,Employment
+USRECM,NBER based Recession Indicators for the United States from the Peak through the Trough,Monthly,+1 or 0,No Seasonal Adjusted,2/1/87,8/31/18,1/1/1854,9/1/18,Production Business
 LNS13026511,Job Losers Not on Layoff as a Percent of Total Unemployed,Monthly,Percent,Seasonal Adjusted,2/1/87,8/31/18,1/1/67,9/14/18,Employment
 GDPC1,Real Gross Domestic Product,Quarterly,Billions of Chained 2012 Dollars,Seasonal Adjusted,2/1/87,4/1/18,1/1/47,4/1/18,income
 MEFAINUSA646N,Median Family Income in the United States,Annually,Current Dollars,No Seasonal Adjusted,2/1/87,8/31/18,1/1/53,1/1/17,Income
