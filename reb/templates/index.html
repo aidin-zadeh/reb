@@ -98,57 +98,59 @@
                 <div class="col-8">
                     <!-- Trend plot -->
                     <div class="card mb-3">
-                        <div class="card-header">
-                            <i class="fas fa-chart-area"></i>
-                            Area Chart Example</div>
+                        <div class="card-header" id="target-tsplot-header"><i class="fas fa-chart-line"></i>
+                        </div>
                         <div class="card-body">
                             <div id="trendPlot">
                             </div>
                         </div>
-                        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                        <div class="card-footer small text-muted" id="target-tsplot-footer"></div>
                     </div>
                 </div>
                 <div class="col-4">
                     <!-- Trend plot -->
                     <div class="card mb-3">
                         <div class="card-header">
-                            <i class="fas fa-chart-area"></i>
-                            Area Chart Example</div>
+                            <i class="fas fa-list"></i> Variables</div>
                         <div class="card-body">
                             <div class="container">
                                 <h2>Form control: select</h2>
                                 <p>The form below contains two dropdown menus (select lists):</p>
                                 <form>
                                     <div class="form-group">
-                                        <label for="sel1">Select recession indicator (select one):</label>
-                                        <select class="form-control" id="sel1">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
+                                        <label for="select-target">Select target variable (select one):</label>
+                                        <select class="form-control" id="select-target">
+                                            <option selected="selected" value="13">CMRMTSPL</option>
+                                            <option value="12">INDPRO</option>
+                                            <option value="0">PAYEMS</option>
+                                            <option value="14">W875RX1</option>
                                         </select>
                                         <br>
-                                        <label for="select-indicator">Select predictors (hold shift/ctrl to select more than one):</label>
+                                        <label for="select-indicator">Select predictor variables (hold shift/ctrl to select more than one):</label>
                                         <select multiple class="form-control" id="select-indicator">
-                                            <option selected="selected" >AWHNONAG</option>
-                                            <option selected="selected">CES9091000001</option>
-                                            <option>DGS10</option>
-                                            <option>INDPRO</option>
-                                            <option>MVPHGFD027MNFRBDAL</option>
-                                            <option>MORTGAGE30US</option>
-                                            <option>MORTGAGE15US</option>
-                                            <option>LNS13023622</option>
-                                            <option>LNS13023654</option>
-                                            <option>LNS13023706</option>
-                                            <option>PAYEMS</option>
-                                            <option>USGOVT</option>
-                                            <option>W875RX1</option>
+                                            <option selected="selected" value="1">AWHNONAG</option>
+                                            <option selected="selected" value="2">CES9091000001</option>
+                                            <option value="13">CMRMTSPL</option>
+                                            <option value="11">DGS10</option>
+                                            <option value="12">INDPRO</option>
+                                            <option value="6">MVPHGFD027MNFRBDAL</option>
+                                            <option value="7">MNFCTRIRSA</option>
+                                            <option value="8">MNFCTRMPCIMSA</option>
+                                            <option value="9">MORTGAGE30US</option>
+                                            <option value="10">MORTGAGE15US</option>
+                                            <option value="5">LNS13023706</option>
+                                            <option value="0">PAYEMS</option>
+                                            <option value="4">UNEMPLOY</option>
+                                            <option value="3">USGOVT</option>
+                                            <option value="14">W875RX1</option>
                                         </select>
                                     </div>
                                 </form>
+                                <button type="button" class="btn btn-default btn-block" id="run-button">Run</button>
+
                             </div>
                         </div>
-                        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                        <div class="card-footer small text-muted" id="select-form-footer"></div>
                     </div>
 
                 </div>
@@ -161,7 +163,7 @@
         <footer class="sticky-footer">
             <div class="container my-auto">
                 <div class="copyright text-center my-auto">
-                    <span>Copyright © Your Website 2018</span>
+                    <span>Created in October 2018</span>
                 </div>
             </div>
         </footer>
@@ -169,32 +171,13 @@
     </div>
     <!-- /.content-wrapper -->
 
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
 </div>
 <!-- /#wrapper -->
 
 <!-- Scroll to Top Button-->
-<a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-</a>
-
-<!-- Logout Modal-->
-<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="login.html">Logout</a>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Bootstrap core JavaScript-->
 <script src="../static/vendor/jquery/jquery.min.js"></script>
