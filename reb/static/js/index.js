@@ -1,5 +1,5 @@
-var $indictorSelectInput = document.getElementById("indicator-select");
+var $indictorSelectInput = document.getElementById("select-indicator");
 
 
-
-console.log($indictorSelectInput);
+values = [].slice.call($indictorSelectInput.selectedOptions).map(a => a.value)
+console.log(values);

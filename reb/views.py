@@ -10,9 +10,16 @@ ROOT_DIR = os.path.dirname(CURR_DIR)
 
 
 # home route
-@app.route('/home')
-@app.route('/')
+@app.route("/home")
+@app.route("/")
 def home():
-    return render_template('index.html')
+    return render_template("index.html")
+
+
+# @app.route("predict/<variables>/<target>")
+# def predict(variables, target):
+#     print(variables)
+#     print(target)
+#     render_template("index.html")
 
 
