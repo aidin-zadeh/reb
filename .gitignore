@@ -4,7 +4,6 @@
 *.npy
 *.npz
 *.pkl
-*.h5
 # untrack Pycharm .idea directory
 *.idea
 
