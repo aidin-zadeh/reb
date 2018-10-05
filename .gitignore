@@ -42,6 +42,7 @@ __pycache__/
 *.py[cod]
 
 # untrack vs code studio
+*.DS_Stroe
 *.DS_stroe
 
 #
