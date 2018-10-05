@@ -8,13 +8,12 @@ var indicators = {
     5: {abbr: 'LNS13023706', description: ""},
     6: {abbr: 'MVPHGFD027MNFRBDAL', description: ""},
     7: {abbr: 'MNFCTRIRSA', description: ""},
-    8: {abbr: 'MNFCTRMPCIMSA', description: ""},
-    9: {abbr: 'MORTGAGE30US', description: ""},
-    10: {abbr: 'MORTGAGE15US', description: ""},
-    11: {abbr: 'DGS10', description: ""},
-    12: {abbr: 'INDPRO', description: "Industrial Production Index"},
-    13: {abbr: 'CMRMTSPL', description: "Real Manufacturing and Trade Industries Sales"},
-    14: {abbr: 'W875RX1', description: "Real personal income excluding current transfer receipts"}
+    8: {abbr: 'MORTGAGE30US', description: ""},
+    9: {abbr: 'MORTGAGE15US', description: ""},
+    10: {abbr: 'DGS10', description: ""},
+    11: {abbr: 'INDPRO', description: "Industrial Production Index"},
+    12: {abbr: 'CMRMTSPL', description: "Real Manufacturing and Trade Industries Sales"},
+    13: {abbr: 'W875RX1', description: "Real personal income excluding current transfer receipts"}
 };
 
 
