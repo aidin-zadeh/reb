@@ -4,7 +4,7 @@ String.prototype.capitalize = function() {
 };
 
 
-function render_tsplot(rows) {
+function render_tsplot(rows, title) {
 
     function unpack(rows, key) {
         return rows.map(function (row) {
@@ -35,7 +35,7 @@ function render_tsplot(rows) {
     var data = [trace1, trace2];
 
     var layout = {
-        title: 'Time Series with Rangeslider',
+        title: title,
         xaxis: {
             autorange: true,
             // range: ['2015-02-17', '2017-02-16'],

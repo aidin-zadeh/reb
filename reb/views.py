@@ -67,8 +67,6 @@ def predict_cmrmtspl(variables, target):
     print(variables)
     print(target)
 
-
-
     d = {"h": [1, 2, 3], "j": [4, 5, 6]}
     return jsonify(d)
 
@@ -76,12 +74,15 @@ def predict_cmrmtspl(variables, target):
 @app.route("/predict/<variables>/<target>")
 def predict(variables, target):
 
-    variables = "8,2"
-    target = "0"
+    print(variables, target)
+    # variables = "8,2"
+    # target = "0"
 
     index_features = [int(elem) for elem in variables.split(',')]
     index_features.sort()
     index_target = int(target)
+    if index_target in index_features:
+        index_features.remove(index_target)
 
 
     # read data
@@ -101,8 +102,8 @@ def predict(variables, target):
     all_values_scaled = scaler.fit_transform(all_values)
 
     # set model parameters
-    n_lags = 6
-    n_sequences = 6
+    n_lags = 24
+    n_sequences = 18
     n_units = 10
     print(index_features)
     print(index_target)
@@ -114,13 +115,13 @@ def predict(variables, target):
     # reshape x as per lstm input format
     x_scaled = x_scaled.reshape((1, n_lags, n_variables))
     print("x_scaled shape: ", x_scaled.shape)
+    fname = 'f.' + '.'.join([str(elem) for elem in index_features]) + \
+            f'.t.{index_target}.l.{n_lags}.s.{n_sequences}.u.{n_units}' + '.h5'
+    print(fname)
 
     with backend.get_session().graph.as_default() as g:
         # load model
-        fname = 'f.' + '.'.join([str(elem) for elem in index_features]) + \
-                f'.t.{index_target}.l.{n_lags}.s.{n_sequences}.u.{n_units}' + '.h5'
         ffname = os.path.join(CURR_DIR, "data", "int", fname)
-        print(fname)
         model = load_model(ffname)
         # forecast
         yhat_scaled = model.predict(x_scaled)

@@ -28,7 +28,7 @@ function predict(selectedFeatures, selectedTargets) {
     d3.json(requestUrl).then(function (rows) {
         console.log(rows)
 
-        render_tsplot(rows);
+        render_tsplot(rows, indicators[selectedTargets].description);
     });
 
 
